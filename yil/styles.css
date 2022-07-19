@@ -1,0 +1,21 @@
+:root {
+    --black: #101010;
+    --blue:#4462A9;
+    --yellow: #F1A13A;
+    --green: #599276;
+    --orange: #EC5D2A;
+    --baby-blue-light: #C3D9EA;
+    --baby-blue:#A6C6E2;
+    --baby-blue-dark:#72A6CE;
+}
+
+
+body{
+    font-family: 'Marcellus', serif;
+    background:var(--black);
+    color:white
+}
+
+h1{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
