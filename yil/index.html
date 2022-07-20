@@ -47,24 +47,563 @@
 
   </head>
   <body>
-    <section class="pt-5">
-        <div class="container-fluid">
-           <div class="row justify-content-center justify-content-lg-between">
-                <div class="col-lg-3 col-xl-2 d-none d-lg-block ps-0">
-                    <img src="./img/hero-1.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-8 d-block d-lg-none">
-                    <img src="./img/hero-mobile.png" alt="" class="img-fluid">
-                </div>
-                <div class="col-lg-6"></div>
-                <div class="col-lg-3 col-xl-2 d-none d-lg-block px-0">
-                    <img src="./img/hero-2.png" alt="" class="img-fluid">
+    <main class="py-5">
 
+        <div class="container-fluid mb-3 mb-lg-5">
+
+           <!-- Hero --> 
+           <section class="row justify-content-center justify-content-lg-around">
+                <div class="col-lg-3 col-xl-3 d-none d-lg-block text-center">
+                    <img src="./img/hero-1.png" alt="" class="img-fluid hero-artwork mx-auto" data-aos="fade-up" data-aos-duration="1500">
+                </div>
+                <div class="col-10 d-block d-lg-none">
+                    <img src="./img/hero-mobile.png" alt="" class="img-fluid" data-aos="fade-in" data-aos-duration="2500">
+                </div>
+                <div class="col-lg-6 col-xl-5 text-center">
+                    <img src="./img/logo-fog.svg" alt="" style="width:150px" class="my-4">
+                    <h1 class="text-uppercase display-4 fw-bold"><span class="d-block">2022 Young</span> Impact Leaders</h1>
+                    <p class="lead text-orange fs-4">30 Changemakers to watch for</p>
+                    <div class="d-flex justify-content-center align-items-center my-2">
+                        <div>Presented by</div>
+                        <div><img src="./img/logo-rbc.svg" alt="" style="width:100px"></div>
+                    </div>
+                    <p>Entrepreneurs get a lot of praise for starting something new, and making big waves in the social impact world — and they should.</p>
+                    <p>But it's also true that much of social impact happens through bold, incremental steps inside existing organizations.</p>
+                </div>
+                <div class="col-lg-3 col-xl-3 d-none d-lg-block text-center">
+                    <img src="./img/hero-2.png" alt="" class="img-fluid hero-artwork mx-auto" data-aos="fade-up" data-aos-duration="2500">
+                </div>
+            </section>
+
+           <!-- Sub hero --> 
+           <section class="row justify-content-around justify-content-xl-center align-items-center">
+                <div class="col-lg-2 d-none d-lg-block text-center">
+                    <img src="./img/subhero-1.png" alt="" class="img-fluid subhero-artwork mx-auto pe-4" data-aos="fade-left" data-aos-duration="2500">
+                </div>
+                <div class="col-lg-7 col-xl-5 text-center">
+                    <img src="./img/icons-quote.svg" alt="" style="max-width:140px" class="mt-3 mb-4" data-aos="fade-in" data-aos-duration="1000">
+                    <blockquote class="fs-3 text-yellow mb-4">
+                        Through implementing courageous and innovative practices, initiatives and policies from the inside, intrapreneurs are driving change in the social impact world. And we think they deserve all the celebration for their work.
+                    </blockquote>
+                    <p>That is why Future of Good's 30 Young Impact Leaders To Watch  shines a light on what this tough intrapreneurial work looks like. Thanks to our semain committee over the last few months, we're excited to feature these 30 brave Canadian intrapreneurs who are challenging traditional norms, mindsets and practices and pushing different ways of delivering social impact in five areas: Inclusion, Youth engagement, tech for good, climate & environment, health & well-being.</p>
+                    <p>This annual list is to celebrate young leaders doing this game-changing work, day in and day out. Let's go.</p>
+                </div>
+                <div class="col-lg-2 d-none d-lg-block text-center">
+                    <img src="./img/subhero-2.png" alt="" class="img-fluid subhero-artwork mx-auto ps-4" data-aos="fade-right" data-aos-duration="2500">
+                </div>               
+           </section>
+           
+           <!-- navigation --> 
+           <div class="row justify-content-center">
+                <div class="col-lg-7 col-xl-7">
+                    <nav class="scrollmenu my-4 border-top-dotted border-bottom-dotted text-center" data-aos="fade-up" data-aos-duration="1000">
+                        <a href="#inclusion" class="text-center nav-icon">
+                            <img src="./img/icon-1.svg" alt="">
+                            <span class="d-block text-white mt-2">Inclusion</span>
+                        </a>
+                        <a href="#youth" class="text-center nav-icon">
+                            <img src="./img/icon-2.svg" alt="">
+                            <span class="d-block text-white mt-2">Youth
+                                Engagement</span>
+                        </a>
+                        <a href="#tech" class="text-center nav-icon">
+                            <img src="./img/icon-5.svg" alt="">
+                            <span class="d-block text-white mt-2">Tech for Good</span>
+                        </a>
+                        <a href="#health" class="text-center nav-icon">
+                            <img src="./img/icon-3.svg" alt="">
+                            <span class="d-block text-white mt-2">Health & Well-Being</span>
+                        </a>
+                        <a href="#climate" class="text-center nav-icon">
+                            <img src="./img/icon-4.svg" alt="">
+                            <span class="d-block text-white mt-2">Climate & Environment</span>
+                        </a>
+                    </nav>
                 </div>
            </div>
+
         </div>
 
-    </section>
+        <!-- list of people -->
+        <section class="container">
+            <div class="row">
+                <!-- inclusion -->
+                <div class="col-lg-6" id="inclusion">
+
+                    <div class="bg-blue py-4 px-3 p-md-5 mb-4 rounded-24" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <div class="rounded-circle bg-white icon-heading d-flex justify-content-center align-items-center mx-auto mb-3">
+                                <img src="./img/icon-1.svg" alt="" class="icon-heading-artwork">
+                            </div>
+                            <h2>Inclusion</h2>
+                        </div>
+
+                        <!-- person -->
+                        <details class="person-dark-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- person -->
+                        <details class="person-dark-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>                  
+                        
+                    </div>
+
+                </div>
+
+                <!-- Youth-->
+                <div class="col-lg-6" id="youth">
+                    <div class="bg-baby-blue-dark py-5 px-3 mb-4 rounded-24" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <div class="rounded-circle bg-white icon-heading d-flex justify-content-center align-items-center mx-auto mb-3">
+                                <img src="./img/icon-2.svg" alt="" class="icon-heading-artwork">
+                            </div>
+                            <h2 class="text-black">Youth engagement</h2>
+                        </div>
+                        <!-- person -->
+                        <details class="person-light-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- person -->
+                        <details class="person-light-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>                                
+                    </div>
+
+                </div>
+
+                <!-- Tech for Good -->
+                <div class="col-lg-12" id="tech">
+
+                    <div class="bg-yellow py-5 px-3 mb-4 rounded-24" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <div class="rounded-circle bg-white icon-heading d-flex justify-content-center align-items-center mx-auto mb-3">
+                                <img src="./img/icon-5.svg" alt="" class="icon-heading-artwork">
+                            </div>
+                            <h2 class="text-black">Tech for Good</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <!-- person -->
+                                <details class="person-light-bg">
+                                    <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                        <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                        <div class="ms-md-3">
+                                            <div class="d-flex justify-content-md-between align-items-center">
+                                                <h3 class="h4">Dana Carriere</h3>
+                                                <div class="h1 fw-bold">+</div>
+                                            </div>
+                                            <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                        </div>
+                                    </summary>
+                                    <div class="py-4">
+                                        <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </details>
+
+                                <!-- person -->
+                                <details class="person-light-bg">
+                                    <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                        <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                        <div class="ms-md-3">
+                                            <div class="d-flex justify-content-md-between align-items-center">
+                                                <h3 class="h4">Dana Carriere</h3>
+                                                <div class="h1 fw-bold">+</div>
+                                            </div>
+                                            <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                        </div>
+                                    </summary>
+                                    <div class="py-4">
+                                        <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </details>                                     
+                            </div>
+                            <div class="col-lg-6">
+                                <!-- person -->
+                                <details class="person-light-bg">
+                                    <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                        <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                        <div class="ms-md-3">
+                                            <div class="d-flex justify-content-md-between align-items-center">
+                                                <h3 class="h4">Dana Carriere</h3>
+                                                <div class="h1 fw-bold">+</div>
+                                            </div>
+                                            <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                        </div>
+                                    </summary>
+                                    <div class="py-4">
+                                        <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </details>
+
+                                <!-- person -->
+                                <details class="person-light-bg">
+                                    <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                        <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                        <div class="ms-md-3">
+                                            <div class="d-flex justify-content-md-between align-items-center">
+                                                <h3 class="h4">Dana Carriere</h3>
+                                                <div class="h1 fw-bold">+</div>
+                                            </div>
+                                            <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                        </div>
+                                    </summary>
+                                    <div class="py-4">
+                                        <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                        <ul class="list-inline">
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                            <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </details>                                     
+                            </div>
+                        </div>
+                           
+                    </div>
+
+                </div>
+
+                <!-- health -->
+                <div class="col-lg-6"  id="health">
+                    <div class="bg-white py-4 px-3 p-md-5 mb-4 rounded-24" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <div class="rounded-circle bg-black icon-heading d-flex justify-content-center align-items-center mx-auto mb-3">
+                                <img src="./img/icon-3.svg" alt="" class="icon-heading-artwork">
+                            </div>
+                            <h2 class="text-black">Health & Well-Being</h2>
+                        </div>
+
+                        <!-- person -->
+                        <details class="person-light-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- person -->
+                        <details class="person-light-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-white"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>                  
+                        
+                    </div>
+                </div>
+
+                <!-- climate-->
+                <div class="col-lg-6" id="climate">
+
+                    <div class="bg-green py-5 px-3 mb-4 rounded-24" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <div class="rounded-circle bg-white icon-heading d-flex justify-content-center align-items-center mx-auto mb-3">
+                                <img src="./img/icon-4.svg" alt="" class="icon-heading-artwork">
+                            </div>
+                            <h2>Climate & Environment</h2>
+                        </div>
+                        <!-- person -->
+                        <details class="person-dark-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>
+
+                        <!-- person -->
+                        <details class="person-dark-bg">
+                            <summary class="d-flex flex-column flex-md-row justify-content-md-between align-items-md-center">
+                                <img src="./img/profile-test.png" alt="" class="profile-photo">
+                                <div class="ms-md-3">
+                                    <div class="d-flex justify-content-md-between align-items-center">
+                                        <h3 class="h4">Dana Carriere</h3>
+                                        <div class="h1 fw-bold">+</div>
+                                    </div>
+                                    <small class="d-block">Lecturer at Edwards School of Business at University of Saskatchewan. She/Her</small>
+                                </div>
+                            </summary>
+                            <div class="py-4">
+                                <p>Dana Carriere is a proud Cree/Metis woman with a strong connection to her culture, values, and worldview. As a lecturer, she is innovating the business curriculum in University of Saskatchewan with a commitment to truth and reconciliation, and advocates for more inclusive practices in post-secondary environments and in workplaces by working to bring more Indigenous students into the faculty. </p>
+                                <ul class="list-inline">
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-solid fa-globe"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-linkedin"></i></a></li>
+                                    <li class="list-inline-item"><a href="#!" target="_blank" class="text-black"><i class="fa-brands fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </details>                                
+                    </div>
+
+                </div>                
+            </div>
+        </section>
+
+        
+        <!-- selection committee-->
+        <section class="container py-5">
+
+            <div class="separator-line pt-5"></div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-5">
+                    <h2>
+                        A special thanks to our selection committee
+                    </h2>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Alyssa Luttenberger (she/her)</h5>
+                            <small>Director of Impact, Development and Granting
+                            Canadian Roots Exchange</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Amnesty Cornelius (she/they)</h5>
+                            <small>C.A.S.E.Y Coordinator Thrive</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Betsy Chaly (she/her)</h5>
+                            <small>National Director, Marketing and Communications
+                                United Way Centraide Canada </small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Doussouba Konate (she/her)</h5>
+                            <small>Executive Director, Accountability Lab Mali</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Hailey Hechtman (she/her)</h5>
+                            <small>Executive Director
+                                Causeway</small>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5">
+                        <img src="./img/avatar.jpg" alt="" class="profile-committee me-3">
+                        <div>
+                            <h5>Vishan Persaud (he/him)</h5>
+                            <small>Director, Corporate Citizenship
+                                RBC Future Launch</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="separator-line pt-5"></div>
+
+            <div class="d-flex flex-column justify-content-center align-items-center my-2">
+                <div>Presented by</div>
+                <div><img src="./img/logo-rbc.svg" alt="" style="width:200px"></div>
+            </div>
+
+            <div class="separator-line mt-5"></div>
+            
+        </section>
+
+
+    </main>
+
+    <footer class="pb-5">
+    <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 text-center text-md-start">
+
+         <div class="col mb-3">
+            <img src="./img/logo-fog.svg" alt="" style="width:150px" class="mb-4">
+          </div>
+      
+          <div class="col mb-3">
+            <h5 class="text-yellow">Company</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">About</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Team</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Our Obsessions</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Membership</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Collections</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">100 Recovery Projects</a></li>
+            </ul>
+          </div>
+      
+          <div class="col mb-3">
+            <h5 class="text-yellow">Work with us</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Careers</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Contact us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Partner with us</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Story ideas</a></li>
+            </ul>
+          </div>
+          <div class="col mb-3">
+            <h5 class="text-yellow">Social media</h5>
+            <ul class="nav flex-column">
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Facebook</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Twitter</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">Instagram</a></li>
+              <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-white">LinkedIn</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="row pt-5">
+            <div class="col-md-6 text-center text-md-start">
+                <small class="text-muted">© 2022 Future of Good. All rights reserved</small>
+            </div>
+            <div class="col-md-6 text-center text-md-end">
+                <small class="text-muted">Visual design by <a class="text-muted" href="https://loogart.com">Loogart</a></small>
+            </div>
+          </div>
+      </div>
+    </footer>
 
 
 
