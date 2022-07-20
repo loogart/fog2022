@@ -135,15 +135,38 @@ a.nav-icon{
     border-bottom:1px solid white;
     color:white;
 }
+
+.person-dark-bg:last-child, .person-light-bg:last-child{
+    border-bottom: none;
+}
+
+.person-dark-bg a{
+    color:white!important;
+}
+
 .person-light-bg{
     padding:20px 0;
     border-bottom:1px solid var(--black);
     color:var(--black);
 }
+.person-light-bg a{
+    color:var(--black)!important;
+}
 .profile-photo{
     object-fit: contain;
-    width:120px;
-    height:120px;
+    width:169px;
+    height:169px;
+    margin-bottom: 10px;
+}
+
+.person-bio{
+    width: 70%;
+}
+
+@media(max-width:767px){
+    .person-bio{
+        width: 100%;
+    }
 }
 
 .profile-committee{
